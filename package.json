@@ -1,12 +1,17 @@
 {
   "name": "my-first-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "my first backend by Mintra Chanthawong",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Mintra Chanthaowng",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
 }
